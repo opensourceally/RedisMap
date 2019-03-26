@@ -7,31 +7,24 @@
     "src/RedisMap.js"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
-    "build:development": "babel -o dist/FileSaver.js --plugins @babel/plugin-transform-modules-umd src/FileSaver.js",
-    "build:production": "babel -o dist/FileSaver.min.js -s --plugins @babel/plugin-transform-modules-umd --presets minify src/FileSaver.js",
-    "build": "npm run build:development && npm run build:production",
+    "test": "echo \"Error: no test specified\" && exit 0"
     "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eligrey/FileSaver.js"
+    "url": "https://github.com/Prashanth-P-Prabhu/RedisMap"
   },
   "keywords": [
-    "filesaver",
-    "saveas",
-    "blob"
+    "redismap",
+    "redismap pub sub",
   ],
-  "author": "Eli Grey <me@eligrey.com>",
+  "author": "Prashanth <neopras81@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eligrey/FileSaver.js/issues"
+    "url": "https://github.com/Prashanth-P-Prabhu/RedisMap/issues"
   },
-  "homepage": "https://github.com/eligrey/FileSaver.js#readme",
+  "homepage": "https://github.com/Prashanth-P-Prabhu/RedisMap",
   "devDependencies": {
-    "@babel/cli": "^7.1.0",
-    "@babel/core": "^7.1.0",
-    "@babel/plugin-transform-modules-umd": "^7.1.0",
-    "babel-preset-minify": "^0.4.3"
+    "@ioredis": "^4.6.2"
   }
 }
