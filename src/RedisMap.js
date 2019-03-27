@@ -1,5 +1,3 @@
-const Redis = require('ioredis');
-
 class RedisMap extends Map {
   constructor(publisher, subscriber, channel, publishMode) {
     super();
